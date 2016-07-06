@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/492a10db5c1bf8bab6447d6bd71aa282bd2c3665/cordova-plugin-ms-adal/cordova-plugin-ms-adal.d.ts",
+    "raw": "registry:dt/cordova-plugin-ms-adal#0.0.0+20160316181252",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/492a10db5c1bf8bab6447d6bd71aa282bd2c3665/cordova-plugin-ms-adal/cordova-plugin-ms-adal.d.ts"
+  }
+}

@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      My Files from OneDrive
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="home" padding>
+  <button primary block (click)="login()" *ngIf="!isAuthenticated">Sign-in with Office 365</button>
+  <ion-list *ngIf="isAuthenticated">
+    <ion-item *ngFor="let item of items">
+      {{item.name}}
+    </ion-item>
+  </ion-list>
+</ion-content>
